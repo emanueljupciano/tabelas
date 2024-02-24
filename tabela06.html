@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header{
+            background-color: black;
+            color: white;
+            height: 100px;
+            padding: 10px;
+            margin-bottom: -10px;
+            margin: -10px;
+        }
+        header >nav {
+            display: inline-block;
+            padding-right: 10px;
+            background-color: black;
+            padding: 8px;
+            margin-bottom: 20px;
+            
+        }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(243, 240, 235);
+    }
+    h1{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    table{
+        width: 500px;
+        border-collapse: collapse;
+        margin: auto;
+        position: relative;
+    }
+    caption{
+        background-color: rgb(182, 182, 182);
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        font-weight: bold;
+    }
+    td, th{
+        border: 1px solid black;
+        padding: 10px;
+    }
+    thead> tr> th{
+        position: sticky;
+        top: -1px;
+        background-color: rgb(245, 170, 32);
+    }
+    thead, tfoot{
+        background-color: rgb(245, 170, 32);
+        color: white;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .num{
+        text-align: right;
+    }
+    p{
+        text-indent: 30px;
+        text-align: justify;
+    }
+    .branco{
+        background-color: rgb(254, 254, 255);
+    }
+    .preto{
+        background-color: rgb(133, 133, 133);
+        color: white;
+    } 
+    #horizontal{
+        overflow-x: auto;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Tabela Responsiva</h1>
+       
+        <nav>Home</nav>
+        <nav>Conta</nav>
+        <nav>Dados</nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <div id="horizontal">
+        <table>
+            <colgroup>
+                <col class="branco">
+                <col class="preto">
+                <col class="branco">
+                <col class="preto">
+                <col class="branco">
+                <col class="preto">
+            </colgroup>
+            <caption>População das províncias angolanas</caption>
+               <thead>
+                <tr>
+                <th scope="col">Província</th>
+                <th scope="col" style="width: 50px;">População</th>
+                <th scope="col">Homens</th>
+                <th scope="col">Mulheres</th>
+                <th scope="col">Crianças</th>
+                <th scope="col">Idosos</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                    <td>Luanda</td>
+                    <td class="num">7.976.986</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Benguela</td>
+                    <td class="num">5.980.765</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Bengo</td>
+                    <td class="num">1.097.865</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Huíla</td>
+                    <td class="num">3.980.764</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Malanje</td>
+                    <td class="num">3.569.953</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Huambo</td>
+                    <td class="num">2.981.560</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Zaire</td>
+                    <td class="num">1.930.231</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Moxico</td>
+                    <td class="num">2.814.065</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Kwanza Norte</td>
+                    <td class="num">2.768.933</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Kwanza Sul</td>
+                    <td class="num">3.654.231</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Lunda Sul</td>
+                    <td class="num">2.567.832</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Lunda Norte</td>
+                    <td class="num">2.763.443</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Cabinda</td>
+                    <td class="num">3.041.765</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Cunene</td>
+                    <td class="num">2.544.602</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Uige</td>
+                    <td class="num">3.764.389</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Namibe</td>
+                    <td class="num">3.764.095</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Bié</td>
+                    <td class="num">4.874.003</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+                <tr>
+                    <td>Cuando Cubango</td>
+                    <td class="num">4.770.899</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                    <td>2.935.002</td>
+                </tr>
+               </tbody>
+               <tfoot>
+               <tr>
+                <th scope="row">Total de habitantes</th>
+                <td>2.935.002</td>
+                <td>2.935.002</td>
+                <td>2.935.002</td>
+                <td>2.935.002</td>
+                <td>32.987.653</td>
+               </tr>
+               </tfoot>
+           </table>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus accusantium ea quod quos soluta omnis suscipit, ipsum dicta odit aspernatur assumenda earum nemo laborum! Expedita provident quis repellendus magni autem! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia illo nesciunt nemo doloribus possimus non quis asperiores et deleniti numquam ipsa fugiat provident, voluptatum dolore explicabo alias pariatur velit maxime.</p>
+</body>
+</html>
